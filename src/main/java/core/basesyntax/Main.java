@@ -1,13 +1,9 @@
 package core.basesyntax;
 
 public class Main {
-    public static void main(String[] names, String[] data, String dateFrom, String dateTo) {
+    public static void main(String[] args) {
 
         SalaryInfo salaryInfo = new SalaryInfo();
-
-        salaryInfo.getSalaryInfo(names, data, dateFrom, dateTo);
-
-        salaryInfo.getDataSorted(data, dateFrom, dateTo);
 
     }
 }
